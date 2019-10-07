@@ -1,0 +1,96 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	background: #f2f0eb url(images/.jpg);
+	font: 16px Helvetica, Arial, Sans-Serif; color: #636363; line-height: 24px;
+}
+
+#container {
+	width: 700px; margin: 0 auto;
+	background: url(images/footer.jpg);
+}
+* {
+	box-sizing: border-box;
+  }
+.img-container {
+	float: left;
+	width: 30%;
+	padding: 3px;
+  }
+  
+  .clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+#logo {
+	margin: 10px auto 0 auto; position: relative; width: 13px;
+}
+
+	ul#nav li {
+		width: 126px; height: 33px; float: left; padding: 13px 0 0 0;
+		background: url(images/nav-bg.png);
+		font-weight: bold; text-align: center; text-transform: uppercase;
+		color: #f2f0eb;
+	}
+		
+    #header {
+                height: 244px; padding: 52px 0 0 57px;
+                background: url(images/home-header.jpg);
+            }
+            
+                #header h1 {
+                    font: 38px Georgia, Serif; color: #f2f0eb; letter-spacing: 2px; margin: 0 0 20px 0;
+                    text-shadow: 0px 3px 3px #494949;
+                }
+                #header h2 {
+                    width: 510px; font: 25px Georgia, Serif; color: #f2f0eb; letter-spacing: 1px; margin: 0 0 20px 0;
+                    text-shadow: 0px 3px 3px #494949;
+                }
+
+#content {
+	background: url(images/content-bg.png) repeat-y;
+	padding: 57px 69px 50px 69px; overflow: hidden;
+	color: #f2f0eb
+}
+	#content h2 {
+		font: 30px Georgia, Serif; letter-spacing: 2px; margin: 0 0 20px 0;
+		
+	}
+
+	#content h3 {
+		font: 26px Georgia, Serif; letter-spacing: 2px; margin: 0 0 20px 0;
+		
+	}
+	
+	#content p {
+		margin: 0 0 30px 0;
+		
+	}
+	
+	#content a {
+		color: #a12121; text-decoration: none;
+	}
+
+#footer {
+	background: url(images/footer.jpg) no-repeat; padding: 40px 0 0 0;
+	overflow: hidden; margin: 0 0 30px 0;
+}
+	#footer p#copyright {
+		font-size: 12px; float: left; margin: 0 0 0 30px; color: #b8b6b2;
+	}
+	#footer p#back-top {
+		font-size: 12px; float: right; margin: 0 30px 0 0;
+	}
+		#footer a {
+		color: #f7f7f7; text-decoration: none;
+	}
+		#footer a:hover {
+			color: #671111;
+		}
+
+		
+
